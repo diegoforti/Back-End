@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Documento Pagina</title>
+</head>
+
+<body>
+
+    <label for="">nombre: </label>
+    <span>
+        <%=nombre%>
+    </span>
+
+    <br>
+
+    <label for="">apellido: </label>
+    <span>
+        <%=apellido%>
+    </span>
+
+    <br>
+    <label for="">paises: </label>
+    <select name="" id="">
+        <%
+            paises.forEach(element => {
+        %>
+            <option>
+                <%=element%>
+            </option>
+
+            <% }); %>
+    </select>
+
+    <br>
+    <label for="">productos: </label>
+    <select name="" id="">
+        <%
+                productos.forEach(producto => {
+            %>
+            <option value="<%=producto.id%>">
+                <%=producto.nombre%>
+            </option>
+
+            <% }); %>
+    </select>
+
+
+</body>
+
+</html>

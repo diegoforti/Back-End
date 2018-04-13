@@ -1,0 +1,20 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "profileId": 1 },
+    { "id": 2, "title": "server", "profileId": 2 },
+    { "id": 3, "title": "javscript", "profileId": 3 }
+  ],
+
+  "comments": [
+    { "id": 1, "body": "some comment to json-server", "postId": 1 },
+    { "id": 2, "body": "some comment2", "postId": 2 },
+    { "id": 3, "body": "some comment3 to json-server", "postId": 1 },
+    { "id": 4, "body": "some comment4", "postId": 3 }
+  ],
+
+  "profile": [
+    { "id": 1, "name": "typicode" },
+    { "id": 2, "name": "user1" },
+    { "id": 3, "name": "user2" }
+  ]
+}
