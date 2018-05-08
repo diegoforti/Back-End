@@ -1,0 +1,114 @@
+{
+  "clientes": [
+    {
+      "id": "1",
+      "nombre": "nicola",
+      "apellido": "Bad",
+      "email": "jbad@gmail.com",
+      "direccion": "zarat 122"
+    },
+    {
+      "id": "1",
+      "nombre": "thomas",
+      "apellido": "Fran",
+      "email": "thom@gmail.com",
+      "direccion": "asamb 112"
+    },
+    {
+      "id": "1",
+      "nombre": "Pablo",
+      "apellido": "Rio",
+      "email": "riorio@gmail.com",
+      "direccion": "caseros 122"
+    }
+  ],
+  "libros": [
+    {
+      "id": "1",
+      "titulo": "historia 1",
+      "resumen": "libro de historia",
+      "autor": "pigna",
+      "editorial": "salvat",
+      "precio": 16.25,
+      "imageUrl": "https://placeimg.com/700/400/animals",
+      "stock": 5
+    },
+    {
+      "id": "2",
+      "titulo": "historia 2",
+      "resumen": "libro de historia 2",
+      "autor": "pigna",
+      "editorial": "mc",
+      "precio": 120.2,
+      "imageUrl": "https://placeimg.com/700/400/people",
+      "stock": 3
+    },
+    {
+      "id": "3",
+      "titulo": "El hombre",
+      "resumen": "novela",
+      "autor": "soriano",
+      "editorial": "arenas",
+      "precio": 43.24,
+      "imageUrl": "https://placeimg.com/700/400/any",
+      "stock": 15
+    },
+    {
+      "id": "4",
+      "titulo": "El hombre",
+      "resumen": "novela",
+      "autor": "soriano",
+      "editorial": "arenas",
+      "precio": 125.5,
+      "imageUrl": "https://placeimg.com/700/400/tech",
+      "stock": 15
+    },
+    {
+      "id": "5",
+      "titulo": "El hombre",
+      "resumen": "novela",
+      "autor": "soriano",
+      "editorial": "arenas",
+      "precio": 15.8,
+      "imageUrl": "https://placeimg.com/700/400/arch",
+      "stock": 15
+    },
+    {
+      "id": 6,
+      "titulo": "La Isla",
+      "resumen": "Novela ",
+      "autor": "KF",
+      "editorial": "00ff00",
+      "imageUrl": "https://placeimg.com/700/400/tech",
+      "precio": 23,
+      "stock": 11
+    }
+  ],
+  "vendedores": [
+    {
+      "idVendedor": 1,
+      "nombre": "typicode",
+      "apellido": "typicode",
+      "email": "jbad@gmail.com",
+      "direccion": "zarat 122"
+    }
+  ],
+  "productos": [
+    {
+      "id": 11,
+      "title": "historia 1",
+      "imageUrl": "https://placeimg.com/700/400/any",
+      "price": 100,
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!"
+    },
+    {
+      "id": 12,
+      "title": "Mitos Sagrados",
+      "imageUrl": "https://placeimg.com/700/400/any",
+      "price": 200,
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!"
+    }
+  ]
+}
